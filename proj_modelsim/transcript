@@ -1,0 +1,269 @@
+# Compile of Adder_32_Bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder_Register_File.v was successful.
+# Compile of ForwardUnit.v was successful.
+# Compile of Immediate_Unit.v was successful.
+# Compile of Multiplexer_2_to_1.v was successful.
+# Compile of Multiplexer_3_to_1.v was successful.
+# Compile of MUX_Register_File.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of pipeline.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RISC_V_Single_Cycle.v was successful.
+# Compile of RISC_V_Single_Cycle_TB.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.RISC_V_Single_Cycle_TB
+# vsim -gui work.RISC_V_Single_Cycle_TB 
+# Start time: 22:00:56 on Nov 29,2021
+# Loading work.RISC_V_Single_Cycle_TB
+# Loading work.RISC_V_Single_Cycle
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Adder_32_Bits
+# Loading work.Register_File
+# Loading work.Decoder_Register_File
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Immediate_Unit
+# Loading work.Multiplexer_2_to_1
+# Loading work.ALU_Control
+# Loading work.ALU
+# Loading work.ANDGate
+# Loading work.pipeline
+# Loading work.ForwardUnit
+# Loading work.Multiplexer_3_to_1
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUV'.  Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Single_Cycle_TB/DUV File: C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v Line: 21
+# ** Warning: (vsim-3722) C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v(21): [TFMPC] - Missing connection for port 'out_top'.
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/clk_tb
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/reset_tb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Iván  Hostname: LAPTOP-EV9FNA3K  ProcessID: 7948
+#           Attempting to use alternate WLF file "./wlftf4z1v9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftf4z1v9
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/CONTROL_UNIT/OP_i
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/CONTROL_UNIT/jalr_o
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/CONTROL_UNIT/jal_o
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/CONTROL_UNIT/Branch_o
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/CONTROL_UNIT/Mem_Read_o
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/CONTROL_UNIT/Mem_to_Reg_o
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/CONTROL_UNIT/Mem_Write_o
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/CONTROL_UNIT/ALU_Src_o
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/CONTROL_UNIT/Reg_Write_o
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/CONTROL_UNIT/ALU_Op_o
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/ALU_UNIT/ALU_Operation_i
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/ALU_UNIT/A_i
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/ALU_UNIT/B_i
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/ALU_UNIT/Zero_o
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/ALU_UNIT/ALU_Result_o
+# Compile of Adder_32_Bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder_Register_File.v was successful.
+# Compile of ForwardUnit.v was successful.
+# Compile of Immediate_Unit.v was successful.
+# Compile of Multiplexer_2_to_1.v was successful.
+# Compile of Multiplexer_3_to_1.v was successful.
+# Compile of MUX_Register_File.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of pipeline.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RISC_V_Single_Cycle.v was successful.
+# Compile of RISC_V_Single_Cycle_TB.v was successful.
+# 19 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.RISC_V_Single_Cycle_TB
+# Loading work.RISC_V_Single_Cycle
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Adder_32_Bits
+# Loading work.Register_File
+# Loading work.Decoder_Register_File
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Immediate_Unit
+# Loading work.Multiplexer_2_to_1
+# Loading work.ALU_Control
+# Loading work.ALU
+# Loading work.ANDGate
+# Loading work.pipeline
+# Loading work.ForwardUnit
+# Loading work.Multiplexer_3_to_1
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUV'.  Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Single_Cycle_TB/DUV File: C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v Line: 21
+# ** Warning: (vsim-3722) C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v(21): [TFMPC] - Missing connection for port 'out_top'.
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUV'.  Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Single_Cycle_TB/DUV File: C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v Line: 21
+# ** Warning: (vsim-3722) C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v(21): [TFMPC] - Missing connection for port 'out_top'.
+run
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/PROGRAM_MEMORY/Address_i
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/PROGRAM_MEMORY/Instruction_o
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/ALU_CONTROL_UNIT/funct7_i
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/ALU_CONTROL_UNIT/ALU_Op_i
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/ALU_CONTROL_UNIT/funct3_i
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/ALU_CONTROL_UNIT/ALU_Operation_o
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/ALU_CONTROL_UNIT/alu_control_values
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/clk
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/reset
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Reg_Write_i
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Write_Register_i
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Read_Register_1_i
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Read_Register_2_i
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Write_Data_i
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Read_Data_1_o
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Read_Data_2_o
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUV'.  Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Single_Cycle_TB/DUV File: C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v Line: 21
+# ** Warning: (vsim-3722) C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v(21): [TFMPC] - Missing connection for port 'out_top'.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUV'.  Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Single_Cycle_TB/DUV File: C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v Line: 21
+# ** Warning: (vsim-3722) C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v(21): [TFMPC] - Missing connection for port 'out_top'.
+run
+# Compile of Adder_32_Bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder_Register_File.v was successful.
+# Compile of ForwardUnit.v was successful.
+# Compile of Immediate_Unit.v was successful.
+# Compile of Multiplexer_2_to_1.v was successful.
+# Compile of Multiplexer_3_to_1.v was successful.
+# Compile of MUX_Register_File.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of pipeline.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RISC_V_Single_Cycle.v was successful.
+# Compile of RISC_V_Single_Cycle_TB.v was successful.
+# 19 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.RISC_V_Single_Cycle_TB
+# Loading work.RISC_V_Single_Cycle
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Adder_32_Bits
+# Loading work.Register_File
+# Loading work.Decoder_Register_File
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Immediate_Unit
+# Loading work.Multiplexer_2_to_1
+# Loading work.ALU_Control
+# Loading work.ALU
+# Loading work.ANDGate
+# Loading work.pipeline
+# Loading work.ForwardUnit
+# Loading work.Multiplexer_3_to_1
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUV'.  Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Single_Cycle_TB/DUV File: C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v Line: 21
+# ** Warning: (vsim-3722) C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v(21): [TFMPC] - Missing connection for port 'out_top'.
+run
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[5]
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[0]
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[3]
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[2]
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[1]
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[0]
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[7]
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[6]
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[5]
+add wave -position end  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[4]
+add wave -position 40  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[11]
+add wave -position 40  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[10]
+add wave -position 40  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[9]
+add wave -position 40  sim:/RISC_V_Single_Cycle_TB/DUV/DataMemory/ram[8]
+# Compile of Adder_32_Bits.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_Control.v was successful.
+# Compile of ANDGate.v was successful.
+# Compile of Control.v was successful.
+# Compile of Data_Memory.v was successful.
+# Compile of Decoder_Register_File.v was successful.
+# Compile of ForwardUnit.v was successful.
+# Compile of Immediate_Unit.v was successful.
+# Compile of Multiplexer_2_to_1.v was successful.
+# Compile of Multiplexer_3_to_1.v was successful.
+# Compile of MUX_Register_File.v was successful.
+# Compile of PC_Register.v was successful.
+# Compile of pipeline.v was successful.
+# Compile of Program_Memory.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register_File.v was successful.
+# Compile of RISC_V_Single_Cycle.v was successful.
+# Compile of RISC_V_Single_Cycle_TB.v was successful.
+# 19 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.RISC_V_Single_Cycle_TB
+# Loading work.RISC_V_Single_Cycle
+# Loading work.Control
+# Loading work.PC_Register
+# Loading work.Program_Memory
+# Loading work.Data_Memory
+# Loading work.Adder_32_Bits
+# Loading work.Register_File
+# Loading work.Decoder_Register_File
+# Loading work.Register
+# Loading work.MUXRegisterFile
+# Loading work.Immediate_Unit
+# Loading work.Multiplexer_2_to_1
+# Loading work.ALU_Control
+# Loading work.ALU
+# Loading work.ANDGate
+# Loading work.pipeline
+# Loading work.ForwardUnit
+# Loading work.Multiplexer_3_to_1
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUV'.  Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Single_Cycle_TB/DUV File: C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v Line: 21
+# ** Warning: (vsim-3722) C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v(21): [TFMPC] - Missing connection for port 'out_top'.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUV'.  Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Single_Cycle_TB/DUV File: C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v Line: 21
+# ** Warning: (vsim-3722) C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v(21): [TFMPC] - Missing connection for port 'out_top'.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUV'.  Expected 3, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /RISC_V_Single_Cycle_TB/DUV File: C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v Line: 21
+# ** Warning: (vsim-3722) C:/Projects/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v(21): [TFMPC] - Missing connection for port 'out_top'.
+run
+# End time: 23:36:27 on Nov 29,2021, Elapsed time: 1:35:31
+# Errors: 0, Warnings: 3
